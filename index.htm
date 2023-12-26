@@ -15,6 +15,9 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
     <!-- FIM BOOTSTRAP ICONS-->
     <link rel="stylesheet" href="style.css">
+
+    <script src="menu.js" defer></script>
+
     <title>LSDC Portifólio</title>
 </head>
 
@@ -42,6 +45,29 @@
                     <button>Contato</button>
                 </a>
             </div><!--btn-contato-->
+
+            <div class="btn-abrir-menu" id="btn-menu">
+                <i class="bi bi-list"></i>
+            </div><!--btn-abrir-menu-->
+
+            <div class="menu-mobile" id="menu-mobile">
+                <div class="btn-fechar">
+                    <i class="bi bi-x"></i>
+                </div><!--btn-fechar-->
+
+                <nav>
+                    <ul>
+                        <li><a href="#">Início</a></li>
+                        <li><a href="#">Especialidades</a></li>
+                        <li><a href="#">Sobre</a></li>
+                        <li><a href="#">Projetos</a></li>
+                        <li><a href="#">Contato</a></li>
+                    </ul>
+                </nav>
+
+            </div><!--menu-mobile-->
+
+            <div class="overlay-menu" id="overlay-menu"></div><!--overlay-menu-->
 
         </div><!--interface-->
     </header>
@@ -168,7 +194,7 @@
         <div class="interface">
             <div class="line-footer">
                 <div class="flex">
-                <div class="logo-footer">
+                    <div class="logo-footer">
                         <img src="images/logo_resized.png" alt="Logo LSDC">
                     </div><!--logo-footer-->
                     <div class="btn-social">
@@ -182,8 +208,9 @@
             </div><!--line-footer-->
 
             <div class="line-footer borda">
-                <p><i class="bi bi-envelope-at-fill"></i> <a href="mailto:leandrosantana403@gmail.com">leandrosantana403@gmail.com       
-                </a></p>
+                <p><i class="bi bi-envelope-at-fill"></i> <a
+                        href="mailto:leandrosantana403@gmail.com">leandrosantana403@gmail.com
+                    </a></p>
             </div><!--line-footer-->
         </div><!--interface-->
     </footer>
